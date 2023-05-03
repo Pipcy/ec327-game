@@ -71,8 +71,7 @@ Wifi connection is required for the online leaderboard to work properly. All oth
 4. If you get sent back to the beginning of a game after finishing it - ****it is a glitch that we are experiencing****. Simply continue to the game and exit by hitting the pause button and “return to main menu.”  
 
 ### Usage
-[Clear, terse instructions on how to use your app.  What do the different interface elements (buttons, menus, etc.) do?  How does one see the various requirements and features in action.]
-View EC327 Simulator for Dummies pdf for more detailed user instructions. 
+Our game consists of a main classroom with several different mini-games. To start the game, enter your username, click to select a character, and click start to enter the classroom. To enter a mini-game, use the joystick to move your character to one of the purple circles. For more detailed user instructions, see the EC327 Simulator for Dummies PDF.
 
 
 
