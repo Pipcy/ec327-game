@@ -8,7 +8,7 @@ Animated Game
 Our game simulates different aspects of memorable moments from EC327, with an added twist of course!
 
 ### Description
-Dive into the world of EC327 and get a taste of what it's like. Customize your character and explore the classroom. You'll be given a chance to demonstrate your machine code skills and test your knowledge of your fellow classmates and peers. Be careful when answering machine code questions as getting a question wrong might incur the wrath of Professor Trachtenberg. Compete with other players for a place in the leaderboard. See the EC327 Simulator for Dummies pdf for user instruction and the google doc linked bellow for installation instructions. 
+Dive into the world of EC327 and get a taste of what it's like. Customize your character and explore the classroom. You'll be given a chance to demonstrate your machine code skills and test your knowledge of your fellow classmates and peers. Be careful when answering machine code questions as getting a question wrong might incur the wrath of Professor Trachtenberg. Compete with other players for a place in the leaderboard. See the EC327 Simulator for Dummies pdf for user instruction and the [google doc](https://docs.google.com/document/d/1GzOz6lCIO9-j1esVCNZ64J18vl1_PMV1DgRqveJSo84/edit?usp=sharing) linked below for installation instructions. 
 
 ## Authors
 ### Group members
