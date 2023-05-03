@@ -8,7 +8,7 @@ Animated Game
 Our game simulates different aspects of memorable moments from EC327, with an added twist of course!
 
 ### Description
-Dive into the world of EC327 and get a taste of what it's like. Customize your character and explore the classroom. You'll be given a chance to demonstrate your machine code skills and test your knowledge of your fellow classmates and peers. Be careful when answering machine code questions as getting a question wrong might incur the wrath of Professor Trachtenberg. Compete with other players for a place in the leaderboard. 
+Dive into the world of EC327 and get a taste of what it's like. Customize your character and explore the classroom. You'll be given a chance to demonstrate your machine code skills and test your knowledge of your fellow classmates and peers. Be careful when answering machine code questions as getting a question wrong might incur the wrath of Professor Trachtenberg. Compete with other players for a place in the leaderboard. See the EC327 Simulator for Dummies pdf for user instruction and the google doc linked bellow for installation instructions. 
 
 ## Authors
 ### Group members
@@ -20,18 +20,17 @@ Ethan Liang     - EthanLiang        - ethanl66@bu.edu
 Pranav Shrihari - PranavShrihari    - pranavsh@bu.edu  
 
 ### Roles
-Lead: Pippi (50.0000001%), Ankita(49.9999999%)  
-Front End: Pippi (56.1%), Ethan (18.69%), Pranav (18.69%), Ankita (4.66%), Elena (1.86%)  
+Lead: Pippi (50%), Ankita(50%)  
+Front End: Pippi (55.1%), Ethan (17.69%), Pranav (17.69%), Ankita (7.69%), Elena (1.83%)  
 Back End: Elena (25%), Pranav (10%), Ankita (22%), Pippi (28%), Ethan(15%)  
 Documenter:	Ankita (80%), Elena (20%)  
-Tester:	Elena (50%), Ethan (50%), Pranav(%)  
+Tester: Ethan (57%), Pranav(43%)  
 
 ---
 ## Accomplishments
 
 ### Minimum requirements
-[A list of minimum requirements that were completed entirely, one per line.]
-[A list of any minimum requirements not completed or only partially completed, each with a qualitative fraction of the requirement completed and a brief explanation of what was not completed.  Penalties for partially completed requirements will be halved if the instructor agrees with the self-acknowledged status.]
+
 Completion:  
 100% - Moving graphical pieces.  
 100% - The ability of the user to control some of the moving pieces through input.  
@@ -42,8 +41,7 @@ Completion:
 
 
 ### Possible features
-[A list of possible features that were completed entirely, one per line, together with the percentage credit that was assigned to them.]
-[A list of possible features that were only partially completed, together with a (i) the percentage credit originally assigned to them, (ii) the qualitative percentage of the feature completed, (iii) a brief explanation of what was not completed.  Penalties for partially completed requirements will be halved if the instructor agrees with the self-acknowledged status.]
+
 
 Completion:  
 50% - Implement a health system that is calculated/decreased based on time and player performance [5%]  
@@ -74,21 +72,7 @@ Wifi connection is required for the online leaderboard to work properly. All oth
 
 ### Usage
 [Clear, terse instructions on how to use your app.  What do the different interface elements (buttons, menus, etc.) do?  How does one see the various requirements and features in action.]
-Splash Screen: Contains a start button to start the game, credit page, and leaderboard.
-Character Customization: Create a username, select male/female avatar, confirm button to continue. Assigns new characters a unique ID. 
-MainActivity: Walk around to one of four spots in the room to trigger different activities:
-1. Class Roster (Name Guessing Game)
-- 5 question quiz with randomized names of students and TAs in the class. Guess whether they are real names or not.
-- Pause button: Hint, resume button, return to main menu button
-- Upon finishing, you are shown your score, your best score, and your average score. You can try again or continue to MainActivity. 
-2. Machine Code Quiz:
-- 4 machine code questions.
-- Pause button: View a helpful hint, resume quiz, or return to MainActivity.
-- If you get a question wrong, a minigame will spawn with chalk flying at you. Tap to jump, and dodge all the chalk. You have 3 lives. If you die, you respawn in MainActivity. If you pass, you resume the machine code quiz. 
-- Results page: Shows your score and best score. You can try again or continue to MainActivity.
-3. Profile: View your username, unique ID, average name guessing accuracy, best machine code quiz score, and overall score (average). 
-- Button to sync your data, view online leaderboard, or return to MainActivity.
-4. Art by Pippi
+View EC327 Simulator for Dummies pdf for more detailed user instructions. 
 
 
 
@@ -97,10 +81,13 @@ MainActivity: Walk around to one of four spots in the room to trigger different 
 ## Miscellaneous
 
 ### Extra features
-[Any extra features provided by your app that were not mentioned in the minimum requirements or possible features.  Did you put your app on the Google App store?  Did you implement a half-baked idea that was not envisioned at the start of the project?]
+Our project went above and beyond and created pixel art for every visual asset used in the game. This helped enhance the theme of our game and make it more visually appealing. 
 
 ### Challenges
-[Where there any specific challenges during the implementation of this project that deserve note.  Feel free to include ideas that you tried but failed to work, in terse fashion.]
+Our group struggled to deal with intents and shared preferences as it was our first time handling them. We in particular had bugs where it would send the user to random activities when you returned to the main menu. Additionally it was challenging figuring out how to link chalkActity and chalkGameActivity to each other without restarting chalkActity everytime you went back to it. Shared preferences were difficult to figure out and work our way around since you had to figure out how to access the data from different activities and if you made one major mistake at any point it often persisted even when you tried fixing it including recloning the project. 
+In addition to this, the firebase was extremely difficult to figure out and implement and finding a way to implement a unique ID instead of using the username since two usernames could have updated the same scores. Figuring out the hashmaps and retrieving data from the leaderboard was difficult as well and we found out how easily manipulated and abused the activity could be. In addition to this, the database required constant maintainence to avoid it being broken. 
+
+By the end of the project, we had better grasps of intents, shared preferences and databases but the struggle was real. 
 
 ### Supporting material
 Follow [this Google Doc](https://docs.google.com/document/d/1GzOz6lCIO9-j1esVCNZ64J18vl1_PMV1DgRqveJSo84/edit?usp=sharing) for a detailed cloning/downloading instructions!
@@ -108,12 +95,3 @@ Follow [this Google Doc](https://docs.google.com/document/d/1GzOz6lCIO9-j1esVCNZ
 ### Release
 We are comfortable making this public. 
 
-
-### High Level Documentation for Testing
-Unit tests were implemented for all applicable functions, especially those that format data to be displayed onto the screen, and those accessing and processing data through APIs. These were done through methods such as mocking. 
-
-Interface and system tests were implemented manually through user input and demos. For example, we know that a function works when its intended result shows up on the screen.
-
-###
-
-Issue #7 - Personalize Gitlab has been completed
