@@ -1,20 +1,23 @@
 # EC327 Final Project - Group 7 - Project APEEP
----
+
 ## Summary
-### Category
-Animated Game
 
 ### TL;DR
-Our game simulates different aspects of memorable moments from EC327, with an added twist of course!
+Animated Game built in Andriod Studio! Our game simulates different aspects of memorable moments from EC327, with an added twist of course!
 
 ### Description
-Dive into the world of EC327 and get a taste of what it's like. Customize your character and explore the classroom. You'll be given a chance to demonstrate your machine code skills and test your knowledge of your fellow classmates and peers. Be careful when answering machine code questions as getting a question wrong might incur the wrath of Professor Trachtenberg. Compete with other players for a place in the leaderboard. See the EC327 Simulator for Dummies pdf for user instruction and the [google doc](https://docs.google.com/document/d/1GzOz6lCIO9-j1esVCNZ64J18vl1_PMV1DgRqveJSo84/edit?usp=sharing) for installation instructions. 
+Dive into the world of EC327 and get a taste of what it's like. Customize your character and explore the classroom. You'll be given a chance to demonstrate your machine code skills and test your knowledge of your fellow classmates and peers. Be careful when answering machine code questions as getting a question wrong might incur the wrath of Professor Trachtenberg. Compete with other players for a place in the leaderboard. 
+
+### Download/Clone Instructions
+See the [google doc](https://docs.google.com/document/d/1GzOz6lCIO9-j1esVCNZ64J18vl1_PMV1DgRqveJSo84/edit?usp=sharing) for installation instructions and the "EC327 Simulator for Dummies" pdf for user instructions.
+
+---
 
 ## Authors
 ### Group members
 Member name - Wiki Name - bu email:  
-Ankita Tiwari   - AnkitaTiwari      - ankita04@bu.edu  
 Pippi Pi        - PiyuPi            - ppp@bu.edu   
+Ankita Tiwari   - AnkitaTiwari      - ankita04@bu.edu  
 Elena Berrios   - ElenaBerrios      - eberrios@bu.edu  
 Ethan Liang     - EthanLiang        - ethanl66@bu.edu  
 Pranav Shrihari - PranavShrihari    - pranavsh@bu.edu  
@@ -22,7 +25,7 @@ Pranav Shrihari - PranavShrihari    - pranavsh@bu.edu
 ### Roles
 Lead: Pippi (50%), Ankita(50%)  
 Front End: Pippi (55.1%), Ethan (17.69%), Pranav (17.69%), Ankita (7.69%), Elena (1.83%)  
-Back End: Elena (25%), Pranav (10%), Ankita (22%), Pippi (28%), Ethan(15%)  
+Back End: Pippi (28%), Ankita (22%), Elena (25%), Ethan(15%), Pranav (10%)
 Documenter:	Ankita (80%), Elena (20%)  
 Tester: Ethan (57%), Pranav(43%)  
 
